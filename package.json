@@ -1,0 +1,23 @@
+{
+  "name": "ml_media-storage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.405.0",
+    "request": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mehdibetari/ml_media-storage.git"
+  },
+  "author": "mehdibetari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mehdibetari/ml_media-storage/issues"
+  },
+  "homepage": "https://github.com/mehdibetari/ml_media-storage#readme"
+}
