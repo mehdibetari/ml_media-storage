@@ -42,6 +42,7 @@ const _uploadOnS3FromUrl = ({sourceUrl, destinationPath, destinationFileName, lo
         if (error || response.statusCode !== 200) { 
             console.log("FAILED to get sourceUrl: ", sourceUrl);
             console.log(error);
+            callback(false);
         } else {
             const params = {
                 Bucket: options.AWS_BUCKET_NAME,
